@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import AboutMe from "./components/AboutMe";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <div>
         <Hero />
         <AboutMe />
+        <Skills />
       </div>
     </div>
   );

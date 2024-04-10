@@ -20,6 +20,7 @@ function Provider({ children }) {
       desc: "App developed to track a users favorite books. Uses default and custom react hooks",
     },
   ];
+  const Skills = ["React.JS", "JavaScript", "HTML", "CSS", "Git", "Npm"];
 
   const PersonalInfo = {
     firstName: "Braden",
@@ -34,6 +35,7 @@ function Provider({ children }) {
   const value = {
     Projects,
     PersonalInfo,
+    Skills,
     fullName,
   };
   return <InfoContext.Provider value={value}>{children}</InfoContext.Provider>;
