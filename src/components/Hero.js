@@ -1,9 +1,9 @@
 import useInfoContext from "../hooks/use-info-context";
 
 function Hero() {
-  const { PersonalInfo } = useInfoContext();
+  const { fullName } = useInfoContext();
 
-  return <div>{PersonalInfo.email}</div>;
+  return <div>{fullName}</div>;
 }
 
 export default Hero;

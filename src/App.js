@@ -1,12 +1,13 @@
 import Hero from "./components/Hero";
+import AboutMe from "./components/AboutMe";
 
 function App() {
   return (
     <div>
       <div>
         <Hero />
+        <AboutMe />
       </div>
-      Hello World
     </div>
   );
 }
