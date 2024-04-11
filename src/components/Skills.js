@@ -7,7 +7,7 @@ function Skills() {
   const renderedSkills = Skills.map((skill, index) => {
     return <SkillsDisplay key={index} skill={skill} />;
   });
-  return <div className="book-list">{renderedSkills}</div>;
+  return <div>{renderedSkills}</div>;
 }
 
 export default Skills;
