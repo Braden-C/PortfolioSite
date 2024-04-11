@@ -13,13 +13,13 @@ function Provider({ children }) {
     {
       id: 2,
       title: "Translation App",
-      desc: "App developed to track a users favorite books. Uses default and custom react hooks",
+      desc: "Translation app using Google Translate API. developed entirely in React.js",
       src: "https://github.com/Braden-C/Translation-App",
     },
     {
       id: 3,
       title: "Score Keeper",
-      desc: "App developed to track a users favorite books. Uses default and custom react hooks",
+      desc: "Score Keeper app for tabletop games. Developed entirely in vanilla JavaScript.",
       src: "https://github.com/Braden-C/ScoreKeeper",
     },
   ];
