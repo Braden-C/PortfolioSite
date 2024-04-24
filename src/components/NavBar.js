@@ -1,4 +1,8 @@
+import useInfoContext from "../hooks/use-info-context";
+
 function NavBar() {
+  const { PersonalInfo } = useInfoContext();
+
   return (
     <nav
       className="navbar px-4 position-absolute top-0 end-0 navbar-expand-lg navbar-dark bg-transparent"
@@ -35,9 +39,9 @@ function NavBar() {
             </li>
             <a
               className="btn btn-outline-info"
-              download="Braden Chapman Resume"
+              href={PersonalInfo.resume}
+              download="resume.pdf"
               role="button"
-              href="Braden_Chapman_Resume.pdf"
             >
               Resume
             </a>

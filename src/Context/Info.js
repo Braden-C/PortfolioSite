@@ -28,6 +28,7 @@ function Provider({ children }) {
     firstName: "Braden",
     lastName: "Chapman",
     email: "bradencchapman@yahoo.com",
+    resume: "resume.pdf",
     linkedin: "/braden-chapman-b25a05234",
     bio: "Hello, I am a 27 year old Front-End developer based in central Colorado. I became interested in software/Web development at a very young age, My passion for technology and gaming has only grown over the years and lead me to pursue a career in tech.",
     skills: ["React", "JavaScript", "HTML", "CSS", "Git"],
