@@ -1,0 +1,10 @@
+.app {
+  background-image: url("/public/darktrees.jpg");
+  height: 100%;
+  /* create the Parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.37);
+}
