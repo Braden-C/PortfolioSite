@@ -30,19 +30,21 @@ function Provider({ children }) {
     email: "bradencchapman@yahoo.com",
     resume: "resume.pdf",
     linkedin: "/braden-chapman-b25a05234",
+    intro:
+      "I am a Colorado native Front-End engineer that specializes in React.js",
     bio: "Hello, I am a 27 year old Front-End developer based in central Colorado. I became interested in software/Web development at a very young age, My passion for technology and gaming has only grown over the years and lead me to pursue a career in tech.",
     skills: ["React", "JavaScript", "HTML", "CSS", "Git"],
   };
 
   const Skills = PersonalInfo.skills;
 
-  const fullName = `${PersonalInfo.firstName} ${PersonalInfo.lastName}`;
+  const FullName = `${PersonalInfo.firstName} ${PersonalInfo.lastName}`;
 
   const value = {
     Projects,
     PersonalInfo,
     Skills,
-    fullName,
+    FullName,
   };
   return <InfoContext.Provider value={value}>{children}</InfoContext.Provider>;
 }
