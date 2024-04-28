@@ -13,7 +13,7 @@ function Hero() {
             <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
               <div className="col col-lg-3">
                 <a
-                  className="btn btn-outline-light bg-opacity-25 btn-lg"
+                  className="btn btn-outline-light bg-opacity-25 btn-lg text-nowrap"
                   role="button"
                   href="mailto:bradencchapman@yahoo.com"
                 >
@@ -35,13 +35,6 @@ function Hero() {
         </div>
       </div>
     </div>
-
-    // <div classNameName="hero">
-    //   <div classNameName="px-4 px-5 text-center">
-    //     <h1 classNameName="display-5 fw-bold text-white"></h1>
-    //     <p></p>
-    //   </div>
-    // </div>
   );
 }
 
