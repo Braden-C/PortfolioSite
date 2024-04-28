@@ -5,8 +5,19 @@ function AboutMe() {
   const { PersonalInfo } = useInfoContext();
 
   return (
-    <div>
-      <div>{PersonalInfo.bio}</div>
+    <div className="about-me-container">
+      <div className="container text-center">
+        <div className="row">
+          <div className="container-md mw-50 col">{PersonalInfo.bio}</div>
+          <div className="img-container col">
+            <img
+              className="img-fluid"
+              src={PersonalInfo.Portrait}
+              alt="portrait"
+            ></img>
+          </div>
+        </div>
+      </div>
       <Skills />
     </div>
   );
