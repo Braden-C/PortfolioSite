@@ -1,9 +1,16 @@
-function ProjectsDisplay({ title, desc, src }) {
+function ProjectsDisplay({ title, img, desc, src }) {
   return (
-    <div>
-      <div>{title}</div>
-      <div>{desc}</div>
-      <div>{src}</div>
+    <div className="col">
+      <div className="card">
+        <img src={img} className="card-img-top" alt="..." />
+        <div className="card-body">
+          <h5 className="card-title">{title}</h5>
+          <p className="card-text">{desc}</p>
+          <a href={src} className="btn btn-primary">
+            Github
+          </a>
+        </div>
+      </div>
     </div>
   );
 }

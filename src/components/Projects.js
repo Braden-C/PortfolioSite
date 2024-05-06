@@ -9,12 +9,13 @@ function Projects() {
       <ProjectsDisplay
         key={project.id}
         title={project.title}
+        img={project.img}
         desc={project.desc}
         src={project.src}
       />
     );
   });
-  return <div>{renderedProjects}</div>;
+  return <div className="row">{renderedProjects}</div>;
 }
 
 export default Projects;
