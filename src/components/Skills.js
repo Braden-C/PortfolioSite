@@ -7,7 +7,7 @@ function Skills() {
   const renderedSkills = Skills.map((skill, index) => {
     return <SkillsDisplay key={index} skill={skill} />;
   });
-  return <div>{renderedSkills}</div>;
+  return <div className="row gap-4 w-75">{renderedSkills}</div>;
 }
 
 export default Skills;
