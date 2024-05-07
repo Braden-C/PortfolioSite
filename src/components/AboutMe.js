@@ -6,19 +6,24 @@ function AboutMe() {
 
   return (
     <div className="about-me-container">
-      <div className="container text-center">
-        <div className="row">
-          <div className="container-md mw-50 col">{PersonalInfo.bio}</div>
+      <div className="container-md">
+        <div className="row align-items-center">
+          <div className="container-md text-white text-center fs-5 mw-50 col">
+            <div className="header fs-3 mb-3 text-white">
+              <span>About</span>
+            </div>
+            <div className="bio pb-5">{PersonalInfo.bio}</div>
+            <Skills />
+          </div>
           <div className="img-container col">
             <img
-              className="img-fluid"
+              className="img-fluid rounded-5"
               src={PersonalInfo.Portrait}
               alt="portrait"
             ></img>
           </div>
         </div>
       </div>
-      <Skills />
     </div>
   );
 }
