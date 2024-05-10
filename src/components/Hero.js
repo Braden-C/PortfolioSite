@@ -1,4 +1,5 @@
 import useInfoContext from "../hooks/use-info-context";
+import "./Hero.css";
 
 function Hero() {
   const { PersonalInfo, FullName } = useInfoContext();
