@@ -15,9 +15,9 @@ function AboutMe() {
             <div className="bio pb-5">{PersonalInfo.bio}</div>
             <Skills />
           </div>
-          <div className="img-container col">
+          <div className="img-container d-flex justify-content-center col">
             <img
-              className="img-fluid rounded-5"
+              className="img-fluid w-50 rounded-5"
               src={PersonalInfo.Portrait}
               alt="portrait"
             ></img>
