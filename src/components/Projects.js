@@ -1,5 +1,6 @@
 import useInfoContext from "../hooks/use-info-context";
 import ProjectsDisplay from "./ProjectsDisplay";
+import "./Projects.css";
 
 function Projects() {
   const { Projects } = useInfoContext();
@@ -15,7 +16,11 @@ function Projects() {
       />
     );
   });
-  return <div className="row">{renderedProjects}</div>;
+  return (
+    <div className="projects-container overflow-hidden">
+      <div className="row py-5">{renderedProjects}</div>
+    </div>
+  );
 }
 
 export default Projects;
