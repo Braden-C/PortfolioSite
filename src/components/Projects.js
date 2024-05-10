@@ -17,7 +17,8 @@ function Projects() {
     );
   });
   return (
-    <div className="projects-container overflow-hidden">
+    <div className="projects-container overflow-hidden" id="projects">
+      <h2 className="text-center text-white">Projects</h2>
       <div className="row py-5">{renderedProjects}</div>
     </div>
   );
