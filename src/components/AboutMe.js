@@ -6,13 +6,11 @@ function AboutMe() {
   const { PersonalInfo } = useInfoContext();
 
   return (
-    <div className="about-me-container">
+    <div className="about-me-container" id="about">
       <div className="container-md">
         <div className="row align-items-center">
           <div className="container-md text-white text-center fs-5 mw-50 col">
-            <div className="header fs-3 mb-3 text-white">
-              <span>About</span>
-            </div>
+            <h2 className="text-center text-white py-3">About</h2>
             <div className="bio pb-5">{PersonalInfo.bio}</div>
             <Skills />
           </div>
