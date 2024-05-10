@@ -1,5 +1,6 @@
 import useInfoContext from "../hooks/use-info-context";
 import Skills from "./Skills";
+import "./AboutMe.css";
 
 function AboutMe() {
   const { PersonalInfo } = useInfoContext();
