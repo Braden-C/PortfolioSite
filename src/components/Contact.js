@@ -4,13 +4,10 @@ import "./Contact.css";
 function Contact() {
   const { PersonalInfo } = useInfoContext();
   return (
-    <div className="contact-me-container text-white fs-5" id="Contact">
+    <div className="contact-me-container text-white fs-5" id="contact">
       <div className="container-md py-3 text-center">
         <div className="Header">
-          <div className="horizontal-Header">
-            <span>Contact Me</span>
-            <div className="horizontal-rule"></div>
-          </div>
+          <h2 className="text-center text-white">Contact</h2>
         </div>
         <p className="contact">
           I'm currently open to opportunities, please feel free to reach out via
