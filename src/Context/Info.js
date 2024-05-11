@@ -37,7 +37,7 @@ function Provider({ children }) {
     Portrait: "./portrait.WebP",
     intro:
       "I am a Colorado native Front-End engineer that specializes in React.js",
-    bio: "Hello, I am a 27 year old Front-End developer based in central Colorado. I became interested in software/Web development at a very young age, My passion for technology and gaming has only grown over the years and lead me to pursue a career in tech.",
+    bio: "Hello, I am a 29 year old Front-End developer based in central Colorado. I became interested in software/Web development at a very young age, My passion for technology and gaming has only grown over the years and lead me to pursue a career in tech.",
     skills: ["React", "JavaScript", "HTML", "CSS", "Git", "Npm"],
   };
 
